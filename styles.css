@@ -1,9 +1,17 @@
+header,nav,article{
+    text-align: center;
+    margin: 10px;
+}
+
 header{
     color: lightskyblue;
-    border: 1px lightblue solid;
-    text-align: center;
+    border: 3px lightskyblue solid;
 }
 
 nav{
-    
+    border: 3px purple solid;
+}
+
+article{
+    border: 3px gold solid;
 }
