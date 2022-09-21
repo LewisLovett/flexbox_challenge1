@@ -2,6 +2,7 @@
     #articleContainer{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     article{
         width: 25%;
@@ -9,14 +10,20 @@
     
 }
 @media screen and (min-width: 1024px){
+
     #articleContainer{
+        width: 75%;
+    }
+    nav{
+        width: 25%;
+        align-items: center;
         display: flex;
         justify-content: center;
     }
-    article{
-        width: 25%;
+    main{
+        display: flex;
+        
     }
-    
 }
 
 header,nav,article{
